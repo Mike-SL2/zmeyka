@@ -1,0 +1,39 @@
+﻿/* //v.4.8 Змейка ООП - Автор Слугин М.В. zmey.css */
+body{background:green;}
+.center{width:600px; 
+	margin:5vh auto;
+	border:1px solid lime;
+	background:darkseagreen; }
+#scoreWindow,#record{	width:22ch;
+			margin:2vh auto;
+			font-size:22px;
+			text-align:center; 
+			background:lightcyan;
+			border:1px solid blue;  }
+#playground{position:relative;
+		display:flex;
+		flex-flow:row wrap;
+		background:white;
+		width:500px; 
+		height:500px;  
+		margin:2vh auto;}
+#btnRestart{position:absolute;
+		z-index:1;
+		top:43%;	left:43%;
+		width:200px; 	height:70px;
+		background:pink; 
+		font-size:32px;		display:none;}
+#btnRestart:hover{cursor:pointer;
+		background:plum;}
+#btnRestart:active{cursor:pointer;
+		background:yellow;}
+.backCell{display:flex;
+		justify-content:center; 
+		align-items:center;
+		width:50px; height:50px;}
+.playCell,.redCircle{width:90%; height:90%;
+			margin:0px;padding:0px;}
+.redCircle{border-radius:50%;
+		background:radial-gradient(circle at center, yellow, red 79%);}
+.clGreen{background:Green;  }
+.clRed{background:red;  }
